@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.lists {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.lists__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.lists__btns {
+  display: flex;
+  flex-direction: column;
+}
